@@ -1,7 +1,6 @@
-<<<<<<< HEAD
+
 # My-Communion-Hub
-=======
-# Communion Hub
+
 
 ## "Bringing People of All Faiths Together Through Events & Community Support"
 
