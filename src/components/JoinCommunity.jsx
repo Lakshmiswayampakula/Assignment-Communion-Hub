@@ -130,7 +130,7 @@ const Join = () => {
                 </label>
               </div>
               <div className="text-sm">
-                <a href="#" className="text-blue-600 hover:underline">
+                <a href="https://www.google.com/" className="text-blue-600 hover:underline">
                   Forgot password?
                 </a>
               </div>
