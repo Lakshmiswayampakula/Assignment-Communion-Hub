@@ -203,7 +203,7 @@ const Hero = () => {
 
   // Event Search Component for Slide 2
   const EventSearch = ({ accentColor }) => {
-    const { buttonColor, ringColor } = getAccentColors(accentColor);
+    const { ringColor } = getAccentColors(accentColor);
     
     // Handle search input change
     const handleSearchChange = (e) => {
@@ -222,11 +222,7 @@ const Hero = () => {
             placeholder="Search events..."
             className={`w-2/4 pl-3 pr-10 md:pl-4 md:pr-12 py-2 md:py-3 bg-white/20 backdrop-blur-lg rounded-full border border-white/30 text-white text-sm md:text-base placeholder-white/70 shadow-lg focus:outline-none focus:${ringColor} transition-all duration-300`}
           />
-          <button className={`absolute right-2 top-1/2 transform -translate-y-1/2 ${buttonColor} rounded-full w-6 h-6 md:w-8 md:h-8 flex items-center justify-center shadow-md transition-all duration-300 hover:scale-110`}>
-            <svg className="w-3 h-3 md:w-4 md:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-            </svg>
-          </button>
+          
         </div>
         
         {/* Popular Searches */}
