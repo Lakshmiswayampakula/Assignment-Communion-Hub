@@ -1,3 +1,4 @@
+//Data info page
 import tech from '../image/Religion-1.jpg';
 import startup from '../image/Religion-2.jpg'
 import ai from '../image/Charity-1.jpg'
@@ -16,7 +17,7 @@ export const events = [
       image: tech,
       time: '10:00 AM IST',
       date: 'Monday, March 10, 2025',
-      location: 'Tiruvanmiyur, Chennai',
+      location: 'Tirupathi, Andhra Pradesh',
       description: 'Festival of Lights – A grand celebration of Diwali with cultural performances.'
   },
   {
@@ -48,7 +49,7 @@ export const events = [
       image: music,
       time: '6:00 PM IST',
       date: 'Tuesday, March 11, 2025',
-      location: 'Community Hall, Hyderabad',
+      location: 'Pune, Maharashtra',
       description: 'A youth leadership and development program.'
   },
 
@@ -71,7 +72,7 @@ export const events = [
       image: business,
       time: '11:00 AM IST',
       date: 'Saturday, March 15, 2025',
-      location: 'Kukatpally, Hyderabad',
+      location: 'Nodia, Uttar Pradesh',
       description: 'A vibrant event featuring devotional songs and Garba.'
   },
 
